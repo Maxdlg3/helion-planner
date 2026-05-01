@@ -1,0 +1,7 @@
+node_modules/
+style.src.css
+script.src.js
+*.mov
+*.mp4
+.DS_Store
+Thumbs.db

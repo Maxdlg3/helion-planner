@@ -1,0 +1,14 @@
+{
+  "name": "helion-planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "npx cleancss -o style.css style.src.css",
+    "build:js": "npx terser script.src.js -o script.js --compress --mangle",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.46.2"
+  }
+}
